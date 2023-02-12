@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "aadclient",
+    "libraryId": "4947459c-a00c-4782-a8c9-dedae40345ec",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "aadclient",
+    "solutionShortDescription": "aadclient description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

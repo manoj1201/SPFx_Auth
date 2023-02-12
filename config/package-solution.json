@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aadclient-client-side-solution",
+    "id": "4947459c-a00c-4782-a8c9-dedae40345ec",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "spfxaadclient",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "apiaadclient",
+        "scope":"access_as_user"
+      }
+    ],
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "aadclient description"
+      },
+      "longDescription": {
+        "default": "aadclient description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "aadclient Feature",
+        "description": "The feature that activates elements of the aadclient solution.",
+        "id": "a984d2dc-1d5a-4111-912a-b548cae30120",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/aadclient.sppkg"
+  }
+}
